@@ -1,0 +1,82 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    >div{
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    animation: card   2s ease-in-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    @for $i from 1 through 200{
+        &:nth-of-type(#{$i}){
+            background-color: hsl(random(360), 80%, 60%);
+            top: -(random(1000)+10)+px;
+            left: (random(100))+0%;
+            animation-duration: random(10)+10+s;
+            transform:perspective(800px) rotate3d(1,1,1,random(360)+deg);
+        }
+    }
+}
+}
+.box{
+    width: 400px;
+    height: 200px;
+    // border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    *{
+            margin-left:10px;
+        }
+    >span{
+        color: white;
+        font-size: 100px;
+        font-family: fantasy;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid red;
+        animation: 3s linear infinite;
+        
+        &:first-child{
+            animation-name: txt1;
+        }
+        &:last-child{
+            animation-name: txt2;
+            color: red;
+            >span{
+                color: white;
+            }
+            
+        }
+    }
+}
+
+@keyframes txt1{
+    0% , 20% {transform: translateX(0px);}
+    30%{transform: translateX(-100px);}
+    40% ,78%{transform: translateX(250px);}
+     100%{transform: translateX(250px);}
+}
+@keyframes txt2{
+    0% , 40%{opacity: 1;}
+    50% , 100%{opacity: 0;}
+}
+@keyframes card{
+    to{
+        top: 700px;
+    }
+}
