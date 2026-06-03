@@ -1,0 +1,1485 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+main > div {
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  animation: card 2s ease-in-out forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: aliceblue;
+  font-size: 20px;
+}
+main > div:nth-of-type(1) {
+  background-color: hsl(290, 80%, 60%);
+  top: -858px;
+  left: 92%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 300deg);
+}
+main > div:nth-of-type(2) {
+  background-color: hsl(334, 80%, 60%);
+  top: -384px;
+  left: 17%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 124deg);
+}
+main > div:nth-of-type(3) {
+  background-color: hsl(208, 80%, 60%);
+  top: -687px;
+  left: 29%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 30deg);
+}
+main > div:nth-of-type(4) {
+  background-color: hsl(10, 80%, 60%);
+  top: -143px;
+  left: 82%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 165deg);
+}
+main > div:nth-of-type(5) {
+  background-color: hsl(114, 80%, 60%);
+  top: -635px;
+  left: 81%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 345deg);
+}
+main > div:nth-of-type(6) {
+  background-color: hsl(30, 80%, 60%);
+  top: -457px;
+  left: 26%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 127deg);
+}
+main > div:nth-of-type(7) {
+  background-color: hsl(146, 80%, 60%);
+  top: -23px;
+  left: 93%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 157deg);
+}
+main > div:nth-of-type(8) {
+  background-color: hsl(96, 80%, 60%);
+  top: -441px;
+  left: 45%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 352deg);
+}
+main > div:nth-of-type(9) {
+  background-color: hsl(315, 80%, 60%);
+  top: -428px;
+  left: 16%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 213deg);
+}
+main > div:nth-of-type(10) {
+  background-color: hsl(227, 80%, 60%);
+  top: -723px;
+  left: 32%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 157deg);
+}
+main > div:nth-of-type(11) {
+  background-color: hsl(95, 80%, 60%);
+  top: -214px;
+  left: 60%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 34deg);
+}
+main > div:nth-of-type(12) {
+  background-color: hsl(87, 80%, 60%);
+  top: -52px;
+  left: 51%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 285deg);
+}
+main > div:nth-of-type(13) {
+  background-color: hsl(196, 80%, 60%);
+  top: -396px;
+  left: 79%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 177deg);
+}
+main > div:nth-of-type(14) {
+  background-color: hsl(357, 80%, 60%);
+  top: -989px;
+  left: 80%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 19deg);
+}
+main > div:nth-of-type(15) {
+  background-color: hsl(133, 80%, 60%);
+  top: -922px;
+  left: 18%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 141deg);
+}
+main > div:nth-of-type(16) {
+  background-color: hsl(1, 80%, 60%);
+  top: -131px;
+  left: 5%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 264deg);
+}
+main > div:nth-of-type(17) {
+  background-color: hsl(28, 80%, 60%);
+  top: -163px;
+  left: 44%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 7deg);
+}
+main > div:nth-of-type(18) {
+  background-color: hsl(14, 80%, 60%);
+  top: -572px;
+  left: 23%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 9deg);
+}
+main > div:nth-of-type(19) {
+  background-color: hsl(195, 80%, 60%);
+  top: -721px;
+  left: 18%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 176deg);
+}
+main > div:nth-of-type(20) {
+  background-color: hsl(84, 80%, 60%);
+  top: -46px;
+  left: 34%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 57deg);
+}
+main > div:nth-of-type(21) {
+  background-color: hsl(62, 80%, 60%);
+  top: -209px;
+  left: 2%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 57deg);
+}
+main > div:nth-of-type(22) {
+  background-color: hsl(158, 80%, 60%);
+  top: -432px;
+  left: 51%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 342deg);
+}
+main > div:nth-of-type(23) {
+  background-color: hsl(124, 80%, 60%);
+  top: -778px;
+  left: 24%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 87deg);
+}
+main > div:nth-of-type(24) {
+  background-color: hsl(74, 80%, 60%);
+  top: -176px;
+  left: 32%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 313deg);
+}
+main > div:nth-of-type(25) {
+  background-color: hsl(333, 80%, 60%);
+  top: -533px;
+  left: 7%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 255deg);
+}
+main > div:nth-of-type(26) {
+  background-color: hsl(134, 80%, 60%);
+  top: -170px;
+  left: 94%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 261deg);
+}
+main > div:nth-of-type(27) {
+  background-color: hsl(198, 80%, 60%);
+  top: -219px;
+  left: 84%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 74deg);
+}
+main > div:nth-of-type(28) {
+  background-color: hsl(72, 80%, 60%);
+  top: -416px;
+  left: 43%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 318deg);
+}
+main > div:nth-of-type(29) {
+  background-color: hsl(196, 80%, 60%);
+  top: -786px;
+  left: 6%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 331deg);
+}
+main > div:nth-of-type(30) {
+  background-color: hsl(32, 80%, 60%);
+  top: -643px;
+  left: 78%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 88deg);
+}
+main > div:nth-of-type(31) {
+  background-color: hsl(170, 80%, 60%);
+  top: -683px;
+  left: 95%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 347deg);
+}
+main > div:nth-of-type(32) {
+  background-color: hsl(234, 80%, 60%);
+  top: -243px;
+  left: 39%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 205deg);
+}
+main > div:nth-of-type(33) {
+  background-color: hsl(359, 80%, 60%);
+  top: -197px;
+  left: 56%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 257deg);
+}
+main > div:nth-of-type(34) {
+  background-color: hsl(0, 80%, 60%);
+  top: -189px;
+  left: 4%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 75deg);
+}
+main > div:nth-of-type(35) {
+  background-color: hsl(147, 80%, 60%);
+  top: -467px;
+  left: 63%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 237deg);
+}
+main > div:nth-of-type(36) {
+  background-color: hsl(100, 80%, 60%);
+  top: -893px;
+  left: 26%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 107deg);
+}
+main > div:nth-of-type(37) {
+  background-color: hsl(234, 80%, 60%);
+  top: -753px;
+  left: 8%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 188deg);
+}
+main > div:nth-of-type(38) {
+  background-color: hsl(332, 80%, 60%);
+  top: -966px;
+  left: 14%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 278deg);
+}
+main > div:nth-of-type(39) {
+  background-color: hsl(217, 80%, 60%);
+  top: -827px;
+  left: 76%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 77deg);
+}
+main > div:nth-of-type(40) {
+  background-color: hsl(186, 80%, 60%);
+  top: -63px;
+  left: 55%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 264deg);
+}
+main > div:nth-of-type(41) {
+  background-color: hsl(343, 80%, 60%);
+  top: -687px;
+  left: 81%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 80deg);
+}
+main > div:nth-of-type(42) {
+  background-color: hsl(285, 80%, 60%);
+  top: -602px;
+  left: 41%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 240deg);
+}
+main > div:nth-of-type(43) {
+  background-color: hsl(75, 80%, 60%);
+  top: -474px;
+  left: 100%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 223deg);
+}
+main > div:nth-of-type(44) {
+  background-color: hsl(169, 80%, 60%);
+  top: -365px;
+  left: 62%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 280deg);
+}
+main > div:nth-of-type(45) {
+  background-color: hsl(152, 80%, 60%);
+  top: -791px;
+  left: 43%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 157deg);
+}
+main > div:nth-of-type(46) {
+  background-color: hsl(171, 80%, 60%);
+  top: -996px;
+  left: 49%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 299deg);
+}
+main > div:nth-of-type(47) {
+  background-color: hsl(340, 80%, 60%);
+  top: -599px;
+  left: 55%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 62deg);
+}
+main > div:nth-of-type(48) {
+  background-color: hsl(104, 80%, 60%);
+  top: -809px;
+  left: 97%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 231deg);
+}
+main > div:nth-of-type(49) {
+  background-color: hsl(96, 80%, 60%);
+  top: -120px;
+  left: 69%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 124deg);
+}
+main > div:nth-of-type(50) {
+  background-color: hsl(175, 80%, 60%);
+  top: -273px;
+  left: 87%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 241deg);
+}
+main > div:nth-of-type(51) {
+  background-color: hsl(43, 80%, 60%);
+  top: -734px;
+  left: 50%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 308deg);
+}
+main > div:nth-of-type(52) {
+  background-color: hsl(239, 80%, 60%);
+  top: -546px;
+  left: 15%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 129deg);
+}
+main > div:nth-of-type(53) {
+  background-color: hsl(157, 80%, 60%);
+  top: -785px;
+  left: 14%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 33deg);
+}
+main > div:nth-of-type(54) {
+  background-color: hsl(173, 80%, 60%);
+  top: -430px;
+  left: 61%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 256deg);
+}
+main > div:nth-of-type(55) {
+  background-color: hsl(26, 80%, 60%);
+  top: -922px;
+  left: 38%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 74deg);
+}
+main > div:nth-of-type(56) {
+  background-color: hsl(4, 80%, 60%);
+  top: -312px;
+  left: 21%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 165deg);
+}
+main > div:nth-of-type(57) {
+  background-color: hsl(191, 80%, 60%);
+  top: -779px;
+  left: 10%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 202deg);
+}
+main > div:nth-of-type(58) {
+  background-color: hsl(115, 80%, 60%);
+  top: -363px;
+  left: 7%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 87deg);
+}
+main > div:nth-of-type(59) {
+  background-color: hsl(342, 80%, 60%);
+  top: -16px;
+  left: 87%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 131deg);
+}
+main > div:nth-of-type(60) {
+  background-color: hsl(42, 80%, 60%);
+  top: -930px;
+  left: 83%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 169deg);
+}
+main > div:nth-of-type(61) {
+  background-color: hsl(330, 80%, 60%);
+  top: -770px;
+  left: 83%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 192deg);
+}
+main > div:nth-of-type(62) {
+  background-color: hsl(59, 80%, 60%);
+  top: -333px;
+  left: 61%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 290deg);
+}
+main > div:nth-of-type(63) {
+  background-color: hsl(292, 80%, 60%);
+  top: -947px;
+  left: 61%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 87deg);
+}
+main > div:nth-of-type(64) {
+  background-color: hsl(280, 80%, 60%);
+  top: -246px;
+  left: 69%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 195deg);
+}
+main > div:nth-of-type(65) {
+  background-color: hsl(310, 80%, 60%);
+  top: -47px;
+  left: 52%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 41deg);
+}
+main > div:nth-of-type(66) {
+  background-color: hsl(327, 80%, 60%);
+  top: -559px;
+  left: 33%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 268deg);
+}
+main > div:nth-of-type(67) {
+  background-color: hsl(108, 80%, 60%);
+  top: -17px;
+  left: 4%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 257deg);
+}
+main > div:nth-of-type(68) {
+  background-color: hsl(171, 80%, 60%);
+  top: -761px;
+  left: 5%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 223deg);
+}
+main > div:nth-of-type(69) {
+  background-color: hsl(284, 80%, 60%);
+  top: -636px;
+  left: 26%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 217deg);
+}
+main > div:nth-of-type(70) {
+  background-color: hsl(300, 80%, 60%);
+  top: -303px;
+  left: 13%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 360deg);
+}
+main > div:nth-of-type(71) {
+  background-color: hsl(72, 80%, 60%);
+  top: -13px;
+  left: 7%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 4deg);
+}
+main > div:nth-of-type(72) {
+  background-color: hsl(209, 80%, 60%);
+  top: -416px;
+  left: 11%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 236deg);
+}
+main > div:nth-of-type(73) {
+  background-color: hsl(4, 80%, 60%);
+  top: -941px;
+  left: 50%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 205deg);
+}
+main > div:nth-of-type(74) {
+  background-color: hsl(160, 80%, 60%);
+  top: -203px;
+  left: 61%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 315deg);
+}
+main > div:nth-of-type(75) {
+  background-color: hsl(84, 80%, 60%);
+  top: -550px;
+  left: 11%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 313deg);
+}
+main > div:nth-of-type(76) {
+  background-color: hsl(64, 80%, 60%);
+  top: -985px;
+  left: 85%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 32deg);
+}
+main > div:nth-of-type(77) {
+  background-color: hsl(277, 80%, 60%);
+  top: -257px;
+  left: 55%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 41deg);
+}
+main > div:nth-of-type(78) {
+  background-color: hsl(331, 80%, 60%);
+  top: -517px;
+  left: 39%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 77deg);
+}
+main > div:nth-of-type(79) {
+  background-color: hsl(305, 80%, 60%);
+  top: -64px;
+  left: 1%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 132deg);
+}
+main > div:nth-of-type(80) {
+  background-color: hsl(291, 80%, 60%);
+  top: -246px;
+  left: 69%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 57deg);
+}
+main > div:nth-of-type(81) {
+  background-color: hsl(353, 80%, 60%);
+  top: -481px;
+  left: 77%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 95deg);
+}
+main > div:nth-of-type(82) {
+  background-color: hsl(309, 80%, 60%);
+  top: -370px;
+  left: 100%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 168deg);
+}
+main > div:nth-of-type(83) {
+  background-color: hsl(270, 80%, 60%);
+  top: -907px;
+  left: 47%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 17deg);
+}
+main > div:nth-of-type(84) {
+  background-color: hsl(331, 80%, 60%);
+  top: -498px;
+  left: 67%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 33deg);
+}
+main > div:nth-of-type(85) {
+  background-color: hsl(8, 80%, 60%);
+  top: -922px;
+  left: 72%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 320deg);
+}
+main > div:nth-of-type(86) {
+  background-color: hsl(266, 80%, 60%);
+  top: -356px;
+  left: 89%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 233deg);
+}
+main > div:nth-of-type(87) {
+  background-color: hsl(324, 80%, 60%);
+  top: -245px;
+  left: 45%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 82deg);
+}
+main > div:nth-of-type(88) {
+  background-color: hsl(56, 80%, 60%);
+  top: -964px;
+  left: 88%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 49deg);
+}
+main > div:nth-of-type(89) {
+  background-color: hsl(5, 80%, 60%);
+  top: -609px;
+  left: 47%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 154deg);
+}
+main > div:nth-of-type(90) {
+  background-color: hsl(167, 80%, 60%);
+  top: -242px;
+  left: 68%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 149deg);
+}
+main > div:nth-of-type(91) {
+  background-color: hsl(318, 80%, 60%);
+  top: -137px;
+  left: 9%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 304deg);
+}
+main > div:nth-of-type(92) {
+  background-color: hsl(221, 80%, 60%);
+  top: -244px;
+  left: 94%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 30deg);
+}
+main > div:nth-of-type(93) {
+  background-color: hsl(82, 80%, 60%);
+  top: -543px;
+  left: 18%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 335deg);
+}
+main > div:nth-of-type(94) {
+  background-color: hsl(323, 80%, 60%);
+  top: -532px;
+  left: 26%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 185deg);
+}
+main > div:nth-of-type(95) {
+  background-color: hsl(282, 80%, 60%);
+  top: -611px;
+  left: 28%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 173deg);
+}
+main > div:nth-of-type(96) {
+  background-color: hsl(223, 80%, 60%);
+  top: -714px;
+  left: 23%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 56deg);
+}
+main > div:nth-of-type(97) {
+  background-color: hsl(201, 80%, 60%);
+  top: -700px;
+  left: 44%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 131deg);
+}
+main > div:nth-of-type(98) {
+  background-color: hsl(220, 80%, 60%);
+  top: -674px;
+  left: 83%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 208deg);
+}
+main > div:nth-of-type(99) {
+  background-color: hsl(305, 80%, 60%);
+  top: -71px;
+  left: 83%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 99deg);
+}
+main > div:nth-of-type(100) {
+  background-color: hsl(156, 80%, 60%);
+  top: -794px;
+  left: 60%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 177deg);
+}
+main > div:nth-of-type(101) {
+  background-color: hsl(19, 80%, 60%);
+  top: -298px;
+  left: 1%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 230deg);
+}
+main > div:nth-of-type(102) {
+  background-color: hsl(274, 80%, 60%);
+  top: -290px;
+  left: 41%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 89deg);
+}
+main > div:nth-of-type(103) {
+  background-color: hsl(120, 80%, 60%);
+  top: -787px;
+  left: 1%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 302deg);
+}
+main > div:nth-of-type(104) {
+  background-color: hsl(186, 80%, 60%);
+  top: -590px;
+  left: 88%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 225deg);
+}
+main > div:nth-of-type(105) {
+  background-color: hsl(101, 80%, 60%);
+  top: -691px;
+  left: 8%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 192deg);
+}
+main > div:nth-of-type(106) {
+  background-color: hsl(326, 80%, 60%);
+  top: -510px;
+  left: 60%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 150deg);
+}
+main > div:nth-of-type(107) {
+  background-color: hsl(263, 80%, 60%);
+  top: -986px;
+  left: 49%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 189deg);
+}
+main > div:nth-of-type(108) {
+  background-color: hsl(134, 80%, 60%);
+  top: -653px;
+  left: 71%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 142deg);
+}
+main > div:nth-of-type(109) {
+  background-color: hsl(276, 80%, 60%);
+  top: -996px;
+  left: 72%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 49deg);
+}
+main > div:nth-of-type(110) {
+  background-color: hsl(163, 80%, 60%);
+  top: -483px;
+  left: 77%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 130deg);
+}
+main > div:nth-of-type(111) {
+  background-color: hsl(170, 80%, 60%);
+  top: -599px;
+  left: 67%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 197deg);
+}
+main > div:nth-of-type(112) {
+  background-color: hsl(38, 80%, 60%);
+  top: -914px;
+  left: 79%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 73deg);
+}
+main > div:nth-of-type(113) {
+  background-color: hsl(297, 80%, 60%);
+  top: -812px;
+  left: 19%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 289deg);
+}
+main > div:nth-of-type(114) {
+  background-color: hsl(74, 80%, 60%);
+  top: -172px;
+  left: 38%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 354deg);
+}
+main > div:nth-of-type(115) {
+  background-color: hsl(15, 80%, 60%);
+  top: -594px;
+  left: 50%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 209deg);
+}
+main > div:nth-of-type(116) {
+  background-color: hsl(103, 80%, 60%);
+  top: -925px;
+  left: 4%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 215deg);
+}
+main > div:nth-of-type(117) {
+  background-color: hsl(164, 80%, 60%);
+  top: -952px;
+  left: 20%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 213deg);
+}
+main > div:nth-of-type(118) {
+  background-color: hsl(201, 80%, 60%);
+  top: -120px;
+  left: 2%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 160deg);
+}
+main > div:nth-of-type(119) {
+  background-color: hsl(91, 80%, 60%);
+  top: -325px;
+  left: 25%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 153deg);
+}
+main > div:nth-of-type(120) {
+  background-color: hsl(169, 80%, 60%);
+  top: -655px;
+  left: 32%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 109deg);
+}
+main > div:nth-of-type(121) {
+  background-color: hsl(269, 80%, 60%);
+  top: -118px;
+  left: 66%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 359deg);
+}
+main > div:nth-of-type(122) {
+  background-color: hsl(240, 80%, 60%);
+  top: -953px;
+  left: 65%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 292deg);
+}
+main > div:nth-of-type(123) {
+  background-color: hsl(47, 80%, 60%);
+  top: -564px;
+  left: 31%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 330deg);
+}
+main > div:nth-of-type(124) {
+  background-color: hsl(141, 80%, 60%);
+  top: -184px;
+  left: 59%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 344deg);
+}
+main > div:nth-of-type(125) {
+  background-color: hsl(264, 80%, 60%);
+  top: -661px;
+  left: 22%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 5deg);
+}
+main > div:nth-of-type(126) {
+  background-color: hsl(44, 80%, 60%);
+  top: -928px;
+  left: 53%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 185deg);
+}
+main > div:nth-of-type(127) {
+  background-color: hsl(305, 80%, 60%);
+  top: -578px;
+  left: 27%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 98deg);
+}
+main > div:nth-of-type(128) {
+  background-color: hsl(201, 80%, 60%);
+  top: -800px;
+  left: 35%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 204deg);
+}
+main > div:nth-of-type(129) {
+  background-color: hsl(250, 80%, 60%);
+  top: -299px;
+  left: 68%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 30deg);
+}
+main > div:nth-of-type(130) {
+  background-color: hsl(322, 80%, 60%);
+  top: -279px;
+  left: 98%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 10deg);
+}
+main > div:nth-of-type(131) {
+  background-color: hsl(44, 80%, 60%);
+  top: -468px;
+  left: 68%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 30deg);
+}
+main > div:nth-of-type(132) {
+  background-color: hsl(169, 80%, 60%);
+  top: -558px;
+  left: 60%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 191deg);
+}
+main > div:nth-of-type(133) {
+  background-color: hsl(352, 80%, 60%);
+  top: -845px;
+  left: 27%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 288deg);
+}
+main > div:nth-of-type(134) {
+  background-color: hsl(50, 80%, 60%);
+  top: -264px;
+  left: 51%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 330deg);
+}
+main > div:nth-of-type(135) {
+  background-color: hsl(223, 80%, 60%);
+  top: -176px;
+  left: 17%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 252deg);
+}
+main > div:nth-of-type(136) {
+  background-color: hsl(315, 80%, 60%);
+  top: -166px;
+  left: 99%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 81deg);
+}
+main > div:nth-of-type(137) {
+  background-color: hsl(107, 80%, 60%);
+  top: -183px;
+  left: 88%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 174deg);
+}
+main > div:nth-of-type(138) {
+  background-color: hsl(95, 80%, 60%);
+  top: -751px;
+  left: 40%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 93deg);
+}
+main > div:nth-of-type(139) {
+  background-color: hsl(285, 80%, 60%);
+  top: -620px;
+  left: 39%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 238deg);
+}
+main > div:nth-of-type(140) {
+  background-color: hsl(16, 80%, 60%);
+  top: -138px;
+  left: 13%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 210deg);
+}
+main > div:nth-of-type(141) {
+  background-color: hsl(301, 80%, 60%);
+  top: -592px;
+  left: 100%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 171deg);
+}
+main > div:nth-of-type(142) {
+  background-color: hsl(81, 80%, 60%);
+  top: -327px;
+  left: 55%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 265deg);
+}
+main > div:nth-of-type(143) {
+  background-color: hsl(75, 80%, 60%);
+  top: -1009px;
+  left: 25%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 238deg);
+}
+main > div:nth-of-type(144) {
+  background-color: hsl(60, 80%, 60%);
+  top: -988px;
+  left: 6%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 89deg);
+}
+main > div:nth-of-type(145) {
+  background-color: hsl(197, 80%, 60%);
+  top: -274px;
+  left: 87%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 199deg);
+}
+main > div:nth-of-type(146) {
+  background-color: hsl(327, 80%, 60%);
+  top: -393px;
+  left: 29%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 113deg);
+}
+main > div:nth-of-type(147) {
+  background-color: hsl(52, 80%, 60%);
+  top: -551px;
+  left: 43%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 251deg);
+}
+main > div:nth-of-type(148) {
+  background-color: hsl(328, 80%, 60%);
+  top: -945px;
+  left: 2%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 329deg);
+}
+main > div:nth-of-type(149) {
+  background-color: hsl(296, 80%, 60%);
+  top: -458px;
+  left: 32%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 225deg);
+}
+main > div:nth-of-type(150) {
+  background-color: hsl(138, 80%, 60%);
+  top: -886px;
+  left: 16%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 36deg);
+}
+main > div:nth-of-type(151) {
+  background-color: hsl(288, 80%, 60%);
+  top: -586px;
+  left: 23%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 272deg);
+}
+main > div:nth-of-type(152) {
+  background-color: hsl(8, 80%, 60%);
+  top: -106px;
+  left: 40%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 140deg);
+}
+main > div:nth-of-type(153) {
+  background-color: hsl(339, 80%, 60%);
+  top: -759px;
+  left: 80%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 8deg);
+}
+main > div:nth-of-type(154) {
+  background-color: hsl(46, 80%, 60%);
+  top: -839px;
+  left: 25%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 255deg);
+}
+main > div:nth-of-type(155) {
+  background-color: hsl(279, 80%, 60%);
+  top: -567px;
+  left: 74%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 355deg);
+}
+main > div:nth-of-type(156) {
+  background-color: hsl(311, 80%, 60%);
+  top: -868px;
+  left: 31%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 56deg);
+}
+main > div:nth-of-type(157) {
+  background-color: hsl(139, 80%, 60%);
+  top: -898px;
+  left: 98%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 296deg);
+}
+main > div:nth-of-type(158) {
+  background-color: hsl(95, 80%, 60%);
+  top: -678px;
+  left: 27%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 160deg);
+}
+main > div:nth-of-type(159) {
+  background-color: hsl(131, 80%, 60%);
+  top: -845px;
+  left: 74%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 26deg);
+}
+main > div:nth-of-type(160) {
+  background-color: hsl(120, 80%, 60%);
+  top: -891px;
+  left: 21%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 57deg);
+}
+main > div:nth-of-type(161) {
+  background-color: hsl(201, 80%, 60%);
+  top: -624px;
+  left: 96%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 299deg);
+}
+main > div:nth-of-type(162) {
+  background-color: hsl(300, 80%, 60%);
+  top: -266px;
+  left: 30%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 353deg);
+}
+main > div:nth-of-type(163) {
+  background-color: hsl(127, 80%, 60%);
+  top: -797px;
+  left: 9%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 350deg);
+}
+main > div:nth-of-type(164) {
+  background-color: hsl(352, 80%, 60%);
+  top: -923px;
+  left: 23%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 219deg);
+}
+main > div:nth-of-type(165) {
+  background-color: hsl(247, 80%, 60%);
+  top: -994px;
+  left: 28%;
+  animation-duration: 16s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 262deg);
+}
+main > div:nth-of-type(166) {
+  background-color: hsl(270, 80%, 60%);
+  top: -860px;
+  left: 12%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 265deg);
+}
+main > div:nth-of-type(167) {
+  background-color: hsl(4, 80%, 60%);
+  top: -665px;
+  left: 16%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 185deg);
+}
+main > div:nth-of-type(168) {
+  background-color: hsl(339, 80%, 60%);
+  top: -423px;
+  left: 69%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 179deg);
+}
+main > div:nth-of-type(169) {
+  background-color: hsl(158, 80%, 60%);
+  top: -781px;
+  left: 90%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 104deg);
+}
+main > div:nth-of-type(170) {
+  background-color: hsl(103, 80%, 60%);
+  top: -88px;
+  left: 80%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 333deg);
+}
+main > div:nth-of-type(171) {
+  background-color: hsl(97, 80%, 60%);
+  top: -332px;
+  left: 60%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 17deg);
+}
+main > div:nth-of-type(172) {
+  background-color: hsl(92, 80%, 60%);
+  top: -211px;
+  left: 54%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 314deg);
+}
+main > div:nth-of-type(173) {
+  background-color: hsl(111, 80%, 60%);
+  top: -691px;
+  left: 46%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 322deg);
+}
+main > div:nth-of-type(174) {
+  background-color: hsl(344, 80%, 60%);
+  top: -880px;
+  left: 65%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 90deg);
+}
+main > div:nth-of-type(175) {
+  background-color: hsl(194, 80%, 60%);
+  top: -589px;
+  left: 37%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 211deg);
+}
+main > div:nth-of-type(176) {
+  background-color: hsl(59, 80%, 60%);
+  top: -791px;
+  left: 57%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 296deg);
+}
+main > div:nth-of-type(177) {
+  background-color: hsl(278, 80%, 60%);
+  top: -148px;
+  left: 50%;
+  animation-duration: 20s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 198deg);
+}
+main > div:nth-of-type(178) {
+  background-color: hsl(283, 80%, 60%);
+  top: -466px;
+  left: 62%;
+  animation-duration: 17s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 154deg);
+}
+main > div:nth-of-type(179) {
+  background-color: hsl(164, 80%, 60%);
+  top: -919px;
+  left: 76%;
+  animation-duration: 11s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 171deg);
+}
+main > div:nth-of-type(180) {
+  background-color: hsl(189, 80%, 60%);
+  top: -892px;
+  left: 22%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 337deg);
+}
+main > div:nth-of-type(181) {
+  background-color: hsl(41, 80%, 60%);
+  top: -565px;
+  left: 74%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 269deg);
+}
+main > div:nth-of-type(182) {
+  background-color: hsl(261, 80%, 60%);
+  top: -591px;
+  left: 21%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 138deg);
+}
+main > div:nth-of-type(183) {
+  background-color: hsl(80, 80%, 60%);
+  top: -803px;
+  left: 63%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 132deg);
+}
+main > div:nth-of-type(184) {
+  background-color: hsl(113, 80%, 60%);
+  top: -293px;
+  left: 7%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 55deg);
+}
+main > div:nth-of-type(185) {
+  background-color: hsl(198, 80%, 60%);
+  top: -636px;
+  left: 94%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 206deg);
+}
+main > div:nth-of-type(186) {
+  background-color: hsl(329, 80%, 60%);
+  top: -265px;
+  left: 41%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 37deg);
+}
+main > div:nth-of-type(187) {
+  background-color: hsl(294, 80%, 60%);
+  top: -49px;
+  left: 10%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 273deg);
+}
+main > div:nth-of-type(188) {
+  background-color: hsl(8, 80%, 60%);
+  top: -362px;
+  left: 28%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 328deg);
+}
+main > div:nth-of-type(189) {
+  background-color: hsl(75, 80%, 60%);
+  top: -722px;
+  left: 24%;
+  animation-duration: 13s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 82deg);
+}
+main > div:nth-of-type(190) {
+  background-color: hsl(84, 80%, 60%);
+  top: -283px;
+  left: 3%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 16deg);
+}
+main > div:nth-of-type(191) {
+  background-color: hsl(300, 80%, 60%);
+  top: -691px;
+  left: 18%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 336deg);
+}
+main > div:nth-of-type(192) {
+  background-color: hsl(77, 80%, 60%);
+  top: -416px;
+  left: 96%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 137deg);
+}
+main > div:nth-of-type(193) {
+  background-color: hsl(352, 80%, 60%);
+  top: -645px;
+  left: 95%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 34deg);
+}
+main > div:nth-of-type(194) {
+  background-color: hsl(145, 80%, 60%);
+  top: -1008px;
+  left: 100%;
+  animation-duration: 12s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 266deg);
+}
+main > div:nth-of-type(195) {
+  background-color: hsl(356, 80%, 60%);
+  top: -991px;
+  left: 47%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 49deg);
+}
+main > div:nth-of-type(196) {
+  background-color: hsl(247, 80%, 60%);
+  top: -188px;
+  left: 82%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 43deg);
+}
+main > div:nth-of-type(197) {
+  background-color: hsl(322, 80%, 60%);
+  top: -731px;
+  left: 7%;
+  animation-duration: 18s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 194deg);
+}
+main > div:nth-of-type(198) {
+  background-color: hsl(127, 80%, 60%);
+  top: -564px;
+  left: 18%;
+  animation-duration: 19s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 3deg);
+}
+main > div:nth-of-type(199) {
+  background-color: hsl(182, 80%, 60%);
+  top: -568px;
+  left: 68%;
+  animation-duration: 14s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 337deg);
+}
+main > div:nth-of-type(200) {
+  background-color: hsl(168, 80%, 60%);
+  top: -513px;
+  left: 66%;
+  animation-duration: 15s;
+  transform: perspective(800px) rotate3d(1, 1, 1, 284deg);
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.box * {
+  margin-left: 10px;
+}
+.box > span {
+  color: white;
+  font-size: 100px;
+  font-family: fantasy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 3s linear infinite;
+}
+.box > span:first-child {
+  animation-name: txt1;
+}
+.box > span:last-child {
+  animation-name: txt2;
+  color: red;
+}
+.box > span:last-child > span {
+  color: white;
+}
+
+@keyframes txt1 {
+  0%, 20% {
+    transform: translateX(0px);
+  }
+  30% {
+    transform: translateX(-100px);
+  }
+  40%, 78% {
+    transform: translateX(250px);
+  }
+  100% {
+    transform: translateX(250px);
+  }
+}
+@keyframes txt2 {
+  0%, 40% {
+    opacity: 1;
+  }
+  50%, 100% {
+    opacity: 0;
+  }
+}
+@keyframes card {
+  to {
+    top: 700px;
+  }
+}/*# sourceMappingURL=master.css.map */
